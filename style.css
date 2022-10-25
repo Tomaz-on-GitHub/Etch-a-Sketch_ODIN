@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width:90%;
+    margin-left: 5%;
+}
+main {
+    margin:5%;
+    width:90%;
+   /* min-height:400px; */
+   display:flex;
+   flex-wrap: wrap;
+  /* padding-top: 90%; */
+}
+
+div {
+    width:6.25%;
+    /* height:5px; */
+    border: 1px solid black;
+    flex: 1 0 auto; 
+    aspect-ratio: 1 / 1 ;
+   
+}
+
+div:hover {
+    background-color: brown;
+}
