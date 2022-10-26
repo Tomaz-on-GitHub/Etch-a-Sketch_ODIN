@@ -10,6 +10,28 @@
 </head>
 <body>
     <h1>Etch-a-Sketch</h1>
+    <!-- we get the size of the grid via the form submission -->
+    <!-- 
+Tip: If the action attribute is omitted, the action is set to the current page.-->
+    <span class="selectors">    
+        <button id="grid" onclick="changeGrid()">Change grid</button>
+
+        <form action="/action_page.php">
+        
+            <!-- radio selector buttons-->
+            <input type="radio" id="blackWhite" name="pixel_color" value="bw">
+            <label for="blackWhite">Black/White</label><br>
+            <input type="radio" id="rainbow" name="pixel_color" value="rainbow">
+            <label for="rainbow">Random</label><br>
+            <input type="radio" id="shades" name="pixel_color" value="shades">
+            <label for="shades">Shades</label><br><br>
+        </form> 
+    </span>    
+      
     <main id="root"></main>
+    <p id="positionText">Current position</p>
+
+
+    
 </body>
 </html>
