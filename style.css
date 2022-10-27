@@ -7,6 +7,7 @@ h1 {
     color: hsl(0, 0%, 0%);
     text-align: center;
     width:90%;
+    max-width: 960px;
     margin-left: 5%;
 }
 main {
@@ -17,13 +18,13 @@ main {
    display:flex;
    flex-wrap: wrap;
    justify-content:right;
-   border: 1px solid hsl(0, 0%, 100%);
+   border: 1px solid rgb(0, 0, 0);
 }
 
 div {
     width:6.25%;
     /* height:5px; */
-    border: 1px dotted hsl(0, 0%, 50%);
+    border: 1px dotted rgb(128, 128, 128);
     flex: 1 0 auto; 
     aspect-ratio: 1 / 1 ;
    
@@ -53,4 +54,8 @@ p {
 
 form {
     margin-left:1em;
+}
+
+span {
+    max-width: 960px;
 }
